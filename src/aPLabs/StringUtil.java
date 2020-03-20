@@ -113,6 +113,12 @@ public class StringUtil {
 		
 		String ret = "";
 		
+		for(int i = 0; i<input.length();i++) {
+			if(!(input.indexOf(i))) {
+				
+			}
+		}
+		
 		if(!(input.indexOf('a')>=0 ||input.indexOf('e')>=0 ||
 				input.indexOf('i')>=0 ||input.indexOf('o')>=0 ||
 				input.indexOf('u')>=0) || input.indexOf('A')>=0 ||
@@ -131,6 +137,10 @@ public class StringUtil {
 			
 		
 		return ret;
+		
+	}
+	
+	public String wordBreaker(String str) {
 		
 	}
 	
